@@ -58,15 +58,14 @@
 <body>
 
 	<nav class="navMenu  border">
-		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
-		<a id="inbox" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Inbox</a>
-		<a id="week" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Planner</a>
-		<a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Projects</a>
-		<a id="tasks" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> Tasks</a>
-		<a id="business" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-money-bill-wave"></i> Business</a>
-		<a id="topics" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-layer-group"></i> Topics</a>
-		<a id="notes" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> Notes</a>
-		<a id="media" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bookmark"></i> Media</a>
+		<a id="author" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Author</a>
+		<a id="hg" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-egg"></i> HG</a>
+		<a id="personal" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Personal</a>
+		<a id="vo" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> VO</a>
+		<a id="gohl" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> High Level</a>
+		<a id="drive" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-money-bill-wave"></i> Drive</a>
+		<a id="prompts" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-layer-group"></i> Prompts</a>
+		<a id="social" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> Social</a>
 		<a id="resourses" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-wrench"></i> Resourses</a>
 
 
@@ -84,25 +83,23 @@
 
 		function navigate(id) {
 
-			if (id == 'home')
+			if (id == 'author')
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "inbox")
+			else if (id == "hg")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "week")
+			else if (id == "personal")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "month")
+			else if (id == "vo")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "projects")
+			else if (id == "gohl")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "business")
+			else if (id == "drive")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "tasks")
+			else if (id == "prompts")
 				window.open("https://example.com", '_blank').focus();
-			else if (id == "topics")
+			else if (id == "social")
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "notes")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "media")
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "resourses")
 				window.open("https://example.com3", '_blank').focus();
